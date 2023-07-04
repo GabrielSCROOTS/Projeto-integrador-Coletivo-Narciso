@@ -1,0 +1,574 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=PT+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    margin: 0px auto 0px auto;
+    width: 1583px;
+}
+p,h1,h2,h3,li{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+    background-color: lightgray;
+}
+
+/* inicio do header */
+header{
+    background-color: black;
+}
+#nomecoletivo{
+    margin-right: 100px;
+    
+}
+#imagensheader{
+    display: none;
+}
+#ajuste{
+    display: flex;
+    justify-content: flex-end;    
+    margin-top: -400px;
+    margin-bottom: 30px;
+}
+#menu,.boxmenu,.botaomenu{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    color: #FFD700; 
+    background-color: black;
+    font-family: 'Bangers', cursive; 
+    border-radius: 5px;
+    padding: 5px;
+}
+.boxmenu,a:hover{
+    background-color: #FFD700;
+    color: black;
+}
+/* Final do header */
+
+/* inicio do footer */
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;    
+}
+#menu2,.boxmenu2,.botaomenu2{
+    text-transform: uppercase;
+    text-decoration:none;
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    color: #FFD700; 
+    background-color: black;
+    font-family: 'Bangers', cursive;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.boxmenu2,a:hover{
+    background-color: #FFD700;
+    color: black;
+}
+#navfooter{
+    padding: 10px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.boxmenu2{
+    padding: 5px;
+}
+#copy2{
+    color: #FFD700;
+    padding: 10px;
+}
+#copy{
+    display: flex;
+    align-items: last baseline;
+}
+#h2nocopy{
+    display: none;
+}
+#redessociais{
+    margin-top: 60px;    
+}
+.redessociais{
+    padding: 40px;
+    text-align: center;
+    width: 160px;
+    float: left;
+}
+#redes{    
+    color: #FFD700;
+    text-align: center;
+}
+#logofooter{
+    display: none;
+}
+#logoecopy{
+    margin-top: -50px;
+}
+ /* Final do footer */
+
+ /* fontes */
+
+p {
+    /*font-family: 'PT Serif', serif;*/
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: larger;
+    color: black;
+    text-indent: 24px;
+    text-align: justify;
+}
+h1 {
+    font-size: 35px;
+}
+h2 {
+    font-size: 25px;
+}
+h1, h2{
+    font-family: 'Bangers', cursive;
+    color: black;
+}
+ 
+ /* Home */
+#mainhome{
+    margin: 50px 80px;
+    display: flex;
+}
+#articlehome{   
+    width: 3100px;
+}
+#asidehome{   
+    width: 2900px;
+}
+.phome{
+    padding: 5px;
+    margin-top: 10px;
+}
+#imagemcoletivohome{
+    margin-left: 55px;
+    margin-top: 40px;
+}
+#textocriacao{
+    width: 600px;
+}
+#textofundadores{
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#imagemteatrohome{
+    margin-top: 50px;
+}
+/* Fim do Home */
+
+/* Historia do teatro */
+#articlehistoriadoteatro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    width: 1430px;
+    padding: 50px 0px;
+}
+.boxhistoriadoteatro{
+    font-family: 'Noto Sans JP', sans-serif;
+    columns: 3;
+    margin-top: 30px;    
+}
+.lihistoriadoteatro{
+    padding: 10px 20px;
+    margin-left: 90px;   
+}
+#origemhistoriadoteatro{
+    margin-bottom: 40px;
+}
+#elementoshistoriadoteatro{
+    margin-top: 50px;
+}
+#categoriashistoriadoteatro{
+    margin-top: 50px;
+}
+.none{
+    display: none;
+}
+/* Final da Historia do teatro */
+
+/* teatro no brasil */
+#articleteatrobrasil{
+    margin-left: 70px;
+    width: 1430px;
+    padding: 50px 0px;
+}
+#asideteatrobrasil{
+    margin-left: 70px;
+    width: 1430px;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.boxteatrobrasil{
+    display: flex;
+    margin-top: 20px;
+}
+.box2teatrobrasil{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 30px;
+    padding: 5px;
+}
+.box3teatrobrasil{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box4teatrobrasil{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 120px;
+    margin-right: 30px;
+    padding: 5px;
+}
+#teatrobrasileiro{
+    display: flex;
+    flex-direction: column;
+}
+#h2espaco{
+    margin-bottom: 20px;
+}
+.h2brasil{
+    display: none;
+}
+#h2integrantes{
+    display: none;
+}
+.h2premio{
+    display: none;
+}
+.h2instalacao{
+    display: none;
+}
+.h2detalhes{
+    display: none;
+}
+/* Final do teatro no brasil */
+
+/* teatro no mundo */
+.boxmundo{
+    display: flex;
+    padding: 30px 50px;
+}
+.box3mundo{
+    display: flex;
+    padding: 30px 50px;
+}
+#articlemundo{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.box2mundo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px
+}
+#imagemteatromundo{
+    margin-left: 250px;
+    margin-top: 100px;
+}
+#teatrointernacionais{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#nomedoteatromundo{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    width: 1250px;
+}
+.arrumacaodetalhes{
+    margin-left: 60px;
+}
+.h2mundo{
+    display: none;
+}
+
+
+
+/* Inicio detalhes */
+
+.pecadetalhes{
+    display: flex;
+    margin-top: 100px;
+}
+.textodetalhes{
+    flex-direction: column;
+    width: 700px;
+    margin-left:80px ;
+}
+.imagemdetalhes{
+    margin-left: 215px;
+}
+.boxdetalhes{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.escritadetalhes{
+    flex-direction: column;
+    margin-left: 80px;
+}
+.box2detalhes{
+    margin-left: 200px;
+}
+.pdetalhes{
+    padding: 20px
+}
+.box3detalhes{
+    width: 1490px;
+}
+.box4detalhes{
+    
+    width: 850px; 
+  
+}
+
+/* fale conosco */
+.articlecontato {
+    margin-left: 170px;
+    margin-bottom: 50px;
+    width: 650px;    
+}
+.asidecontato {
+    margin-right: 170px;
+    margin-top: 150px;
+    width: 390px;
+}
+.asidecontato p {
+    text-indent: 0px;
+}
+
+/* formulario */
+form p label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    text-indent: 0px;
+}
+form input {
+    outline: unset;
+    padding: 20px;
+    width: 650px;
+    border: 1px solid #FFD700;
+    border-radius: 10px;
+}
+form textarea {
+    outline: unset;
+    padding: 20px;
+    width: 650px;
+    height: 125px;
+    border: 1px solid #FFD700;
+    border-radius: 10px;
+}
+button {
+    outline: unset;
+    padding: 20px;
+    width: 100px;
+    border: 1px solid #FFD700;
+    background-color: black;
+    color: #FFD700;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 280px;
+}
+#contato{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 450px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#h2formulario{
+    display: none;
+}
+/* Fim Fale Conosco */
+
+/* Projetos */
+h1,.obras, .projetos2{
+    font-weight: bold;
+    text-align: left;
+    text-indent: 0%;
+    color: black;
+}
+.articleP {
+    padding-left: 80px;
+    margin-top: 60px;
+    color: black;
+    text-indent: 1.5em;
+}
+.asideP {
+    margin-left: 150px;
+    margin-top: 70px;
+    margin-right: 150px;
+    margin-bottom: 70px;
+}
+table, tr, th, td {
+    width: 1300px;
+    background-color:#FFD700;
+    font-family: Bangers;
+    font-size: medium;
+    text-align: center;
+    color: black;
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 15px 0px 15px 0px;
+}
+th {
+    padding-top:40px;
+    padding-bottom: 40px;
+    color: black;
+}
+.td {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.TH7 {
+    width: 20px;
+}
+
+/* Quem Somos */
+#mainQS{
+    margin: 50px 80px;
+    display: flex;
+}
+#articleQS{   
+    width: 3000px;       
+}
+#asideQS{   
+    width: 3000px;    
+}
+#imgQS{
+    margin-left: 160px;
+    display: flex;
+    border-radius: 50%;    
+}
+#img2QS{
+    margin-top: 37px;
+    margin-left: 160px;
+    display: flex;
+    border-radius: 50%;
+}
+.h2QS{
+    text-align: center;
+}
+#h1QS{
+    display: none;
+}
+.pfucao{
+    width: 700px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+/* Final Quem somos */
+
+/* inicio Premiação */
+#premiacao{
+    display:flex;
+}
+#premiacao1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+#premiacao2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top:120px;
+}
+#premiacao3{
+   padding: 50px;
+}
+#premiacao4{
+    padding: 50px;
+}
+#premiacao5{
+    padding: 50px;
+}
+#textopremiacao1{
+    columns: 2;
+    margin-top: -100px;
+}
+#textopremiacao2{
+    columns: 2;
+    margin-top: -100px;
+}
+#textopremiacao3{
+    columns: 2;
+    margin-top: -100px;
+}
+/* Final de premiação */
+
+/* inicio Instalações */
+#maininstalacao{
+    display: flex;
+    text-align: justify;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-bottom: 90px;
+} 
+#pinstalacao{
+    width: 650px;
+    margin-top: 30px;
+}
+#asideinstalacao{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.imageminstalacao{
+    margin-top: 50px;
+}
+/* Final de instalação */
+
+
+/* inicio do integrantes */
+#articleintegrantes{
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.imagemintegrantes{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+#pintegrantes{
+    margin-top: 50px;
+    margin-left: 200px;
+    text-align: justify;
+    width: 1000px;
+}
+/* Final do integrantes */
+
+/* inicio Galeria */
+
+#maingaleria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    
+}
+#galeria{
+    margin-bottom: 30px;
+}
+/* Final de Galeria */
